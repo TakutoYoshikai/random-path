@@ -1,6 +1,10 @@
 # random-path
 This is a node package to generate path to directory randomly.
 
+### Requirements
+* Linux
+* Node.js
+
 ### Usage
 **install**
 ```bash
