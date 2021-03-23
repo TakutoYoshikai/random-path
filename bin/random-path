@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 
 const RandomPath = require("../index");
+let dir = "/";
 if (process.argv.length >= 3) {
-  console.log(RandomPath(process.argv[2]));
-} else {
-  console.log(RandomPath("/"));
+  dir = process.argv[2];
 }
-
+const path = RandomPath(dir);
+if (path) {
+  console.log(path);
+}
