@@ -12,5 +12,11 @@ npm install -g TakutoYoshikai/random-path
 random-path <DIR>
 ```
 
+**use in JavaScript**
+```javascript
+const RandomPath = require("random-path");
+console.log(RandomPath("<DIR>"));
+```
+
 ### License
 MIT License
