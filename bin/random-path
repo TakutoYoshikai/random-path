@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const RandomPath = require("../index");
+console.log(RandomPath(process.argv[2]));
+
